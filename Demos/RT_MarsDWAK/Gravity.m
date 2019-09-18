@@ -1,7 +1,7 @@
 % construct the gravity fields
 clear all; clc; tic
 addpath('../../packages/fmmlib3d-1.2/matlab/');
-
+addpath('../../modelbuilder/');
 fmesh  = 'output/RTMDWAK8k/RTMDWAK_3L_8k';
 
 load ../../radialmodels/mars/marsDWAK_3L_gravity.mat
