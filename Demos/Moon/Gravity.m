@@ -1,7 +1,7 @@
 % construct the gravity fields
 clear all; clc; tic
 addpath('../../packages/fmmlib3d-1.2/matlab/');
-
+addpath('../../modelbuilder/');
 
 fmesh = 'output/Mtopo100k/Mtopo_6L_100k';
 
