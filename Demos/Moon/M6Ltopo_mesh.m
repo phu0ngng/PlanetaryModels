@@ -1,5 +1,6 @@
 % build up a Moon model
 clear all; clc;
+addpath('../../modelbuilder/');
  
 fmesh = 'output/Mtopo100k/Mtopo_6L_100k';
 tetgen = '../../packages/tetgen1.5.0/tetgen';
